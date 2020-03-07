@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using RegistroSQLLITE.UI.Registros;
 
 namespace RegistroSQLLITE
 {
@@ -23,6 +24,13 @@ namespace RegistroSQLLITE
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void RegistroButton_Click(object sender, RoutedEventArgs e)
+        {
+            RPersonas rPersonas = new RPersonas();
+
+            rPersonas.Show();
         }
     }
 }
