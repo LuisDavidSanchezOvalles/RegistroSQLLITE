@@ -20,9 +20,14 @@
             <ColumnDefinition Width="50*"/>
             <ColumnDefinition Width="63*"/>
         </Grid.ColumnDefinitions>
-        <Button x:Name="RegistroButton" Content="Registro" Grid.Column="1" HorizontalAlignment="Center" Margin="0,74,0,0" Grid.Row="1" VerticalAlignment="Top" FontSize="48" Click="RegistroButton_Click">
+        <Button x:Name="RegistroButton" Content="Registro" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Center" FontSize="48" Click="RegistroButton_Click">
             <Button.Background>
                 <ImageBrush ImageSource="C:\Users\luisd\OneDrive\Escritorio\Universidad\Programacion Apliacada 1\Pruebas\RegistroSQLLITE\RegistroSQLLITE\Recursos/nuevo.png" Stretch="Uniform"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="ConsultarButton" Content="Consultar" Grid.Column="2" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Center" FontSize="48" Click="ConsultarButton_Click">
+            <Button.Background>
+                <ImageBrush Stretch="Uniform" ImageSource="C:\Users\luisd\OneDrive\Escritorio\Universidad\Programacion Apliacada 1\Pruebas\RegistroSQLLITE\RegistroSQLLITE\Recursos/buscar.png"/>
             </Button.Background>
         </Button>
 

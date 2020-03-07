@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using RegistroSQLLITE.UI.Registros;
+using RegistroSQLLITE.UI.Consultas;
 
 namespace RegistroSQLLITE
 {
@@ -31,6 +32,13 @@ namespace RegistroSQLLITE
             RPersonas rPersonas = new RPersonas();
 
             rPersonas.Show();
+        }
+
+        private void ConsultarButton_Click(object sender, RoutedEventArgs e)
+        {
+            CPersonas cPersonas = new CPersonas();
+
+            cPersonas.Show();
         }
     }
 }
