@@ -8,12 +8,12 @@ namespace RegistroSQLLITE.Entidades
     public class Persona
     {
         [Key]
-        public int PersonId { get; set; }
+        public int PersonaId { get; set; }
         public string Nombres { get; set; }
 
         public Persona()
         {
-            PersonId = 0;
+            PersonaId = 0;
             Nombres = string.Empty;
         }
     }
