@@ -11,6 +11,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using RegistroSQLLITE.Entidades;
 using RegistroSQLLITE.BLL;
+using RegistroSQLLITE.UI.Consultas;
 
 namespace RegistroSQLLITE.UI.Registros
 {
@@ -144,6 +145,12 @@ namespace RegistroSQLLITE.UI.Registros
         {
             this.DataContext = null;
             this.DataContext = persona;
+        }
+
+        private void ConsultarButton_Click(object sender, RoutedEventArgs e)
+        {
+            CPersonas cPersonas = new CPersonas();
+            cPersonas.Show();
         }
     }
 }
