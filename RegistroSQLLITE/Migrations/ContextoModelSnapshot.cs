@@ -17,14 +17,14 @@ namespace RegistroSQLLITE.Migrations
 
             modelBuilder.Entity("RegistroSQLLITE.Entidades.Persona", b =>
                 {
-                    b.Property<int>("PersonId")
+                    b.Property<int>("PersonaId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("Nombres")
                         .HasColumnType("TEXT");
 
-                    b.HasKey("PersonId");
+                    b.HasKey("PersonaId");
 
                     b.ToTable("Personas");
                 });

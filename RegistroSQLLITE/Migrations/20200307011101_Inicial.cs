@@ -10,13 +10,13 @@ namespace RegistroSQLLITE.Migrations
                 name: "Personas",
                 columns: table => new
                 {
-                    PersonId = table.Column<int>(nullable: false)
+                    PersonaId = table.Column<int>(nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
                     Nombres = table.Column<string>(nullable: true)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Personas", x => x.PersonId);
+                    table.PrimaryKey("PK_Personas", x => x.PersonaId);
                 });
         }
 
