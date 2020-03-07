@@ -131,12 +131,19 @@ namespace RegistroSQLLITE.UI.Registros
             if (personaAnterior != null)
             {
                 persona = personaAnterior;
+                Recargar();
             }
             else
             {
                 Limpiar();
                 MessageBox.Show("Persona no encontrada");
             }
+        }
+
+        private void Recargar()
+        {
+            this.DataContext = null;
+            this.DataContext = persona;
         }
     }
 }

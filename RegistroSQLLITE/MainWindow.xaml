@@ -22,7 +22,7 @@
         </Grid.ColumnDefinitions>
         <Button x:Name="RegistroButton" Content="Registro" Grid.Column="1" HorizontalAlignment="Center" Margin="0,74,0,0" Grid.Row="1" VerticalAlignment="Top" FontSize="48" Click="RegistroButton_Click">
             <Button.Background>
-                <ImageBrush ImageSource="/Recursos/nuevo.png" Stretch="Uniform"/>
+                <ImageBrush ImageSource="C:\Users\luisd\OneDrive\Escritorio\Universidad\Programacion Apliacada 1\Pruebas\RegistroSQLLITE\RegistroSQLLITE\Recursos/nuevo.png" Stretch="Uniform"/>
             </Button.Background>
         </Button>
 

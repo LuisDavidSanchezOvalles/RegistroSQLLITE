@@ -38,22 +38,22 @@
         </TextBox>
         <Button x:Name="NuevoButton" Content="Nuevo" HorizontalAlignment="Center" Grid.Row="4" VerticalAlignment="Center" FontSize="24" Click="NuevoButton_Click">
             <Button.Background>
-                <ImageBrush Stretch="Uniform" ImageSource="/Recursos/nuevo.png"/>
+                <ImageBrush Stretch="Uniform" ImageSource="C:\Users\luisd\OneDrive\Escritorio\Universidad\Programacion Apliacada 1\Pruebas\RegistroSQLLITE\RegistroSQLLITE\Recursos/nuevo.png"/>
             </Button.Background>
         </Button>
         <Button x:Name="GuardarButton" Content="Guardar" Grid.Column="1" HorizontalAlignment="Left" Margin="225,0,0,0" Grid.Row="4" VerticalAlignment="Center" FontSize="24" Click="GuardarButton_Click">
             <Button.Background>
-                <ImageBrush Stretch="Uniform" ImageSource="/Recursos/guardar.jpg"/>
+                <ImageBrush Stretch="Uniform" ImageSource="C:\Users\luisd\OneDrive\Escritorio\Universidad\Programacion Apliacada 1\Pruebas\RegistroSQLLITE\RegistroSQLLITE\Recursos/guardar.jpg"/>
             </Button.Background>
         </Button>
         <Button x:Name="EliminarButton" Content="Eliminar" Grid.Column="2" HorizontalAlignment="Left" Margin="87,0,0,0" Grid.Row="4" VerticalAlignment="Center" FontSize="24" Click="EliminarButton_Click">
             <Button.Background>
-                <ImageBrush ImageSource="/Recursos/eliminar.png" Stretch="Uniform"/>
+                <ImageBrush ImageSource="C:\Users\luisd\OneDrive\Escritorio\Universidad\Programacion Apliacada 1\Pruebas\RegistroSQLLITE\RegistroSQLLITE\Recursos/eliminar.png" Stretch="Uniform"/>
             </Button.Background>
         </Button>
         <Button x:Name="BuscarButton" Content="Buscar" Grid.Column="2" HorizontalAlignment="Left" Margin="65,21,0,0" Grid.Row="1" VerticalAlignment="Top" FontSize="24" Click="BuscarButton_Click">
             <Button.Background>
-                <ImageBrush ImageSource="/Recursos/buscar.png" Stretch="Uniform"/>
+                <ImageBrush ImageSource="C:\Users\luisd\OneDrive\Escritorio\Universidad\Programacion Apliacada 1\Pruebas\RegistroSQLLITE\RegistroSQLLITE\Recursos/buscar.png" Stretch="Uniform"/>
             </Button.Background>
         </Button>
     </Grid>
